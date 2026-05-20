@@ -19,9 +19,7 @@ El SIGR implementa una **arquitectura de tres capas** desacoplada, donde el fron
 
 ## Diagrama de arquitectura
 
-```
 ![Diagrama de arquitectura](docs/architecture.png)
-```
 
 ---
 
