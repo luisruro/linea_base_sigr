@@ -20,7 +20,7 @@ El SIGR implementa una **arquitectura de tres capas** desacoplada, donde el fron
 ## Diagrama de arquitectura
 
 ```
-![Diagrama de arquitectura](/Users/luisrubio/Downloads/linea_base_sigr/docs/architecture.png)
+![Diagrama de arquitectura](docs/architecture.png)
 ```
 
 ---
@@ -70,4 +70,4 @@ Cada módulo del sistema sigue la misma estructura interna de cuatro archivos:
 | Origen | Destino | Mecanismo |
 |---|---|---|
 | React (frontend) | FastAPI (backend) | HTTP REST + JSON, header JWT |
-| FastAPI | PostgreSQL | SQLAlchemy async + asyncpg |
+| FastAPI | AzureSQL | SQLAlchemy async + asyncpg |
